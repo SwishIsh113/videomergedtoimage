@@ -1,6 +1,10 @@
 # video to image merger
 turns a video into image frames and merges the image frames into one to create a merged image of a video
 
+import cv2
+import argparse
+import os
+
 Step 1:
 Insert video files into folder: "video"
 
